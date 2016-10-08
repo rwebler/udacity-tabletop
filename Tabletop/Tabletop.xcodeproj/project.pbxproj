@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71D27261DA0300B009A3155 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D27251DA0300B009A3155 /* Game.swift */; };
+		F7D9C30C1D83CF8B00C824D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D9C30B1D83CF8B00C824D8 /* AppDelegate.swift */; };
+		F7D9C30E1D83CF8B00C824D8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D9C30D1D83CF8B00C824D8 /* RootViewController.swift */; };
+		F7D9C3111D83CF8B00C824D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D9C30F1D83CF8B00C824D8 /* Main.storyboard */; };
+		F7D9C3141D83CF8B00C824D8 /* Tabletop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7D9C3121D83CF8B00C824D8 /* Tabletop.xcdatamodeld */; };
+		F7D9C3161D83CF8B00C824D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D9C3151D83CF8B00C824D8 /* Assets.xcassets */; };
+		F7D9C3191D83CF8B00C824D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D9C3171D83CF8B00C824D8 /* LaunchScreen.storyboard */; };
+		F7D9C3241D83CF8B00C824D8 /* TabletopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D9C3231D83CF8B00C824D8 /* TabletopTests.swift */; };
+		F7D9C32F1D83CF8B00C824D8 /* TabletopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D9C32E1D83CF8B00C824D8 /* TabletopUITests.swift */; };
+		F7E4728D1D8DF8DC00AF8BBE /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E4728C1D8DF8DC00AF8BBE /* GameCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D9C3201D83CF8B00C824D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D9C3001D83CF8B00C824D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D9C3071D83CF8B00C824D8;
+			remoteInfo = Tabletop;
+		};
+		F7D9C32B1D83CF8B00C824D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D9C3001D83CF8B00C824D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D9C3071D83CF8B00C824D8;
+			remoteInfo = Tabletop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71D27251DA0300B009A3155 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F7D9C3081D83CF8B00C824D8 /* Tabletop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabletop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D9C30B1D83CF8B00C824D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D9C30D1D83CF8B00C824D8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F7D9C3101D83CF8B00C824D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D9C3131D83CF8B00C824D8 /* Tabletop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tabletop.xcdatamodel; sourceTree = "<group>"; };
+		F7D9C3151D83CF8B00C824D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D9C3181D83CF8B00C824D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D9C31A1D83CF8B00C824D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D9C31F1D83CF8B00C824D8 /* TabletopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D9C3231D83CF8B00C824D8 /* TabletopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopTests.swift; sourceTree = "<group>"; };
+		F7D9C3251D83CF8B00C824D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D9C32A1D83CF8B00C824D8 /* TabletopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D9C32E1D83CF8B00C824D8 /* TabletopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopUITests.swift; sourceTree = "<group>"; };
+		F7D9C3301D83CF8B00C824D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E4728C1D8DF8DC00AF8BBE /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D9C3051D83CF8B00C824D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C31C1D83CF8B00C824D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C3271D83CF8B00C824D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D9C2FF1D83CF8B00C824D8 = {
+			isa = PBXGroup;
+			children = (
+				F7D9C30A1D83CF8B00C824D8 /* Tabletop */,
+				F7D9C3221D83CF8B00C824D8 /* TabletopTests */,
+				F7D9C32D1D83CF8B00C824D8 /* TabletopUITests */,
+				F7D9C3091D83CF8B00C824D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D9C3091D83CF8B00C824D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9C3081D83CF8B00C824D8 /* Tabletop.app */,
+				F7D9C31F1D83CF8B00C824D8 /* TabletopTests.xctest */,
+				F7D9C32A1D83CF8B00C824D8 /* TabletopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D9C30A1D83CF8B00C824D8 /* Tabletop */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9C30B1D83CF8B00C824D8 /* AppDelegate.swift */,
+				F7D9C30D1D83CF8B00C824D8 /* RootViewController.swift */,
+				F7D9C30F1D83CF8B00C824D8 /* Main.storyboard */,
+				F7D9C3151D83CF8B00C824D8 /* Assets.xcassets */,
+				F7D9C3171D83CF8B00C824D8 /* LaunchScreen.storyboard */,
+				F7D9C31A1D83CF8B00C824D8 /* Info.plist */,
+				F7D9C3121D83CF8B00C824D8 /* Tabletop.xcdatamodeld */,
+				F7E4728C1D8DF8DC00AF8BBE /* GameCell.swift */,
+				F71D27251DA0300B009A3155 /* Game.swift */,
+			);
+			path = Tabletop;
+			sourceTree = "<group>";
+		};
+		F7D9C3221D83CF8B00C824D8 /* TabletopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9C3231D83CF8B00C824D8 /* TabletopTests.swift */,
+				F7D9C3251D83CF8B00C824D8 /* Info.plist */,
+			);
+			path = TabletopTests;
+			sourceTree = "<group>";
+		};
+		F7D9C32D1D83CF8B00C824D8 /* TabletopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9C32E1D83CF8B00C824D8 /* TabletopUITests.swift */,
+				F7D9C3301D83CF8B00C824D8 /* Info.plist */,
+			);
+			path = TabletopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D9C3071D83CF8B00C824D8 /* Tabletop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D9C3331D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "Tabletop" */;
+			buildPhases = (
+				F7D9C3041D83CF8B00C824D8 /* Sources */,
+				F7D9C3051D83CF8B00C824D8 /* Frameworks */,
+				F7D9C3061D83CF8B00C824D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabletop;
+			productName = Tabletop;
+			productReference = F7D9C3081D83CF8B00C824D8 /* Tabletop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D9C31E1D83CF8B00C824D8 /* TabletopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D9C3361D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "TabletopTests" */;
+			buildPhases = (
+				F7D9C31B1D83CF8B00C824D8 /* Sources */,
+				F7D9C31C1D83CF8B00C824D8 /* Frameworks */,
+				F7D9C31D1D83CF8B00C824D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D9C3211D83CF8B00C824D8 /* PBXTargetDependency */,
+			);
+			name = TabletopTests;
+			productName = TabletopTests;
+			productReference = F7D9C31F1D83CF8B00C824D8 /* TabletopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D9C3291D83CF8B00C824D8 /* TabletopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D9C3391D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "TabletopUITests" */;
+			buildPhases = (
+				F7D9C3261D83CF8B00C824D8 /* Sources */,
+				F7D9C3271D83CF8B00C824D8 /* Frameworks */,
+				F7D9C3281D83CF8B00C824D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D9C32C1D83CF8B00C824D8 /* PBXTargetDependency */,
+			);
+			name = TabletopUITests;
+			productName = TabletopUITests;
+			productReference = F7D9C32A1D83CF8B00C824D8 /* TabletopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D9C3001D83CF8B00C824D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rodrigo Webler";
+				TargetAttributes = {
+					F7D9C3071D83CF8B00C824D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N96JEJLPE8;
+					};
+					F7D9C31E1D83CF8B00C824D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7D9C3071D83CF8B00C824D8;
+					};
+					F7D9C3291D83CF8B00C824D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7D9C3071D83CF8B00C824D8;
+					};
+				};
+			};
+			buildConfigurationList = F7D9C3031D83CF8B00C824D8 /* Build configuration list for PBXProject "Tabletop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D9C2FF1D83CF8B00C824D8;
+			productRefGroup = F7D9C3091D83CF8B00C824D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D9C3071D83CF8B00C824D8 /* Tabletop */,
+				F7D9C31E1D83CF8B00C824D8 /* TabletopTests */,
+				F7D9C3291D83CF8B00C824D8 /* TabletopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D9C3061D83CF8B00C824D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9C3191D83CF8B00C824D8 /* LaunchScreen.storyboard in Resources */,
+				F7D9C3161D83CF8B00C824D8 /* Assets.xcassets in Resources */,
+				F7D9C3111D83CF8B00C824D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C31D1D83CF8B00C824D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C3281D83CF8B00C824D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D9C3041D83CF8B00C824D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9C30E1D83CF8B00C824D8 /* RootViewController.swift in Sources */,
+				F71D27261DA0300B009A3155 /* Game.swift in Sources */,
+				F7D9C30C1D83CF8B00C824D8 /* AppDelegate.swift in Sources */,
+				F7D9C3141D83CF8B00C824D8 /* Tabletop.xcdatamodeld in Sources */,
+				F7E4728D1D8DF8DC00AF8BBE /* GameCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C31B1D83CF8B00C824D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9C3241D83CF8B00C824D8 /* TabletopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D9C3261D83CF8B00C824D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9C32F1D83CF8B00C824D8 /* TabletopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D9C3211D83CF8B00C824D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D9C3071D83CF8B00C824D8 /* Tabletop */;
+			targetProxy = F7D9C3201D83CF8B00C824D8 /* PBXContainerItemProxy */;
+		};
+		F7D9C32C1D83CF8B00C824D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D9C3071D83CF8B00C824D8 /* Tabletop */;
+			targetProxy = F7D9C32B1D83CF8B00C824D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D9C30F1D83CF8B00C824D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D9C3101D83CF8B00C824D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D9C3171D83CF8B00C824D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D9C3181D83CF8B00C824D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D9C3311D83CF8B00C824D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D9C3321D83CF8B00C824D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D9C3341D83CF8B00C824D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tabletop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.Tabletop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7D9C3351D83CF8B00C824D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tabletop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.Tabletop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7D9C3371D83CF8B00C824D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabletopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.TabletopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabletop.app/Tabletop";
+			};
+			name = Debug;
+		};
+		F7D9C3381D83CF8B00C824D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabletopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.TabletopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabletop.app/Tabletop";
+			};
+			name = Release;
+		};
+		F7D9C33A1D83CF8B00C824D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabletopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.TabletopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tabletop;
+			};
+			name = Debug;
+		};
+		F7D9C33B1D83CF8B00C824D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabletopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigowebler.TabletopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tabletop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D9C3031D83CF8B00C824D8 /* Build configuration list for PBXProject "Tabletop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D9C3311D83CF8B00C824D8 /* Debug */,
+				F7D9C3321D83CF8B00C824D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D9C3331D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "Tabletop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D9C3341D83CF8B00C824D8 /* Debug */,
+				F7D9C3351D83CF8B00C824D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D9C3361D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "TabletopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D9C3371D83CF8B00C824D8 /* Debug */,
+				F7D9C3381D83CF8B00C824D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D9C3391D83CF8B00C824D8 /* Build configuration list for PBXNativeTarget "TabletopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D9C33A1D83CF8B00C824D8 /* Debug */,
+				F7D9C33B1D83CF8B00C824D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7D9C3121D83CF8B00C824D8 /* Tabletop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7D9C3131D83CF8B00C824D8 /* Tabletop.xcdatamodel */,
+			);
+			currentVersion = F7D9C3131D83CF8B00C824D8 /* Tabletop.xcdatamodel */;
+			path = Tabletop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7D9C3001D83CF8B00C824D8 /* Project object */;
+}
