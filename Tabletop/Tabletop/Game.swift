@@ -17,7 +17,7 @@ class TabletopRange {
         self.max = max
     }
     
-    func isGoodFor(numberOfPlayers: Int) -> Bool {
+    func isGoodFor(_ numberOfPlayers: Int) -> Bool {
         //TODO: Test for no max
         return (numberOfPlayers >= min && numberOfPlayers <= max!)
     }

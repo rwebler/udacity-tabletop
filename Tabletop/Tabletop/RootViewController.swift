@@ -25,6 +25,9 @@ class RootViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: Navigation
+
+    
     func loadSampleGames() {
         let photo1 = UIImage(named: "7Wonders")!
         let noPlayers1 = TabletopRange(min: 2, max: 7)
@@ -44,19 +47,19 @@ class RootViewController: UITableViewController {
     
     // MARK: Table View Delegate Methods
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return games.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("GameTableViewCell", forIndexPath: indexPath) as! GameCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GameTableViewCell", for: indexPath) as! GameCell
         
         // Fetches the appropriate game for the data source layout.
-        let game = games[indexPath.row]
+        let game = games[(indexPath as NSIndexPath).row]
         
         cell.nameLabel.text = game.name
         cell.noPlayersLabel.text = "\(game.noPlayers!.min)-\(game.noPlayers!.max!) Players"
