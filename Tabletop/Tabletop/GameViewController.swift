@@ -6,16 +6,27 @@
 //  Copyright © 2016 Rodrigo Webler. All rights reserved.
 //
 
-import UIKit
+import Eureka
 
 
-class GameViewController : UIViewController {
-    
-    // MARK: Properties
+class GameViewController : FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        form = Section("Section1")
+            <<< TextRow(){ row in
+                row.title = "Text Row"
+                row.placeholder = "Enter text here"
+            }
+            <<< PhoneRow(){
+                $0.title = "Phone Row"
+                $0.placeholder = "And numbers here"
+            }
+            +++ Section("Section2")
+            <<< DateRow(){
+                $0.title = "Date Row"
+                $0.value = NSDate(timeIntervalSinceReferenceDate: 0) as Date
+        }
     }
     
     override func didReceiveMemoryWarning() {

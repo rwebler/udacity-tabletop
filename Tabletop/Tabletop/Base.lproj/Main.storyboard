@@ -166,7 +166,7 @@
         <!--New Game-->
         <scene sceneID="dn1-MH-QkD">
             <objects>
-                <viewController id="YfW-wN-qYZ" customClass="GameViewController" sceneMemberID="viewController">
+                <viewController id="YfW-wN-qYZ" customClass="GameViewController" customModule="Tabletop" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5ui-1u-5Cu"/>
                         <viewControllerLayoutGuide type="bottom" id="4N3-f8-ie9"/>
